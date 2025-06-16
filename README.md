@@ -1,40 +1,62 @@
 # CelestialNomad
 
-**Celestial Nomad** is a sci-fi third-person action game developed in Unreal Engine 5 as a student capstone project. You play as a cosmic wanderer confronting forgotten ruins and powerful entities in a stylized galaxy.
 
-This project was built as part of a collaborative team effort during my time at Full Sail University.
+**Celestial Nomad** is a sci-fi third-person action game developed in Unreal Engine 5 as a student capstone project. Players take on the role of a cosmic wanderer exploring ancient alien ruins and facing off against otherworldly enemies.
+
+This project was created by a collaborative student team at Full Sail University, with an emphasis on cinematic presentation, multiplayer functionality, and gameplay systems integration.
+
+---
 
 ## 🎮 Gameplay Overview
 
-- Third-person exploration and combat
-- Special ability system with visual and sound effects
-- Dynamic health UI, pause menu, and win conditions
-- Atmospheric level design with cinematic elements
+- Third-person sci-fi exploration and combat
+- Modular ability system (projectile-based attacks)
+- Enemy AI using basic pathfinding and attack behavior
+- Multiplayer support with replicated abilities and health
+- Stylized visuals and sound synced with character animation
 
-## 🧠 My Contributions
+---
 
-I was responsible for key gameplay and interface systems, including:
+## 👨‍💻 My Contributions
 
-- **UI Systems**:
-  - Pause Menu
-  - Win Menu
-  - Player Health Bar (dynamic and animated)
-  - Reticle design and behavior
+### 🧩 Gameplay & AI
 
-- **Gameplay Implementation**:
-  - Integrated all **ability assets** (projectiles, animations, and sound)
-  - Set up and imported all **character-related assets** (models, animations, VFX, SFX)
-  - Verified functionality and visual consistency across systems
+- Integrated **enemy AI behaviors** using UE5 Behavior Trees and NavMesh
+- Set up **AI perception and pathfinding logic** for basic enemy combat
+- Configured **player abilities** with visual/audio effects and cooldowns
 
-- **Project Management**:
-  - Tracked tasks and progress through a Trello board with versioned contributions
+### 🎮 UI & Player Feedback
+
+- Designed and implemented:
+  - **Pause Menu**
+  - **Win Menu**
+  - **Player Health Bar** (with real-time updates)
+  - **Reticle system**
+
+### 🔁 Multiplayer / Networking
+
+- Implemented **replication for core player actions**, including:
+  - Health synchronization across clients
+  - Replicated ability use and cooldowns
+  - Synced UI elements in multiplayer sessions
+
+### 📦 Asset Integration
+
+- Imported and configured:
+  - All **character models, animations, and audio**
+  - Ability FX and sound systems
+  - Ensured compatibility with both local and networked gameplay
+
+---
 
 ## 🛠 Technologies Used
 
-- Unreal Engine 5 (Blueprints & Asset Integration)
-- Adobe Photoshop & Premiere (UI assets, promotional video editing)
+- Unreal Engine 5 (Blueprints & AI Behavior Trees)
+- UE5 Networking/Replication system
 - Trello (task tracking)
 - Perforce (version control)
+
+---
 
 ## 📸 Screenshots & Demo
 
