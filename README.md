@@ -1,5 +1,4 @@
 # CelestialNomad
-# Celestial Nomad
 
 **Celestial Nomad** is a sci-fi third-person action game developed in Unreal Engine 5 as a student capstone project. You play as a cosmic wanderer confronting forgotten ruins and powerful entities in a stylized galaxy.
 
